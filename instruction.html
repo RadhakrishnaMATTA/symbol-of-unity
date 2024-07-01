@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instructions</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9; 
+    }
+    .instruction-box {
+      width: 70%;
+      margin: 20px auto;
+      padding: 17px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff; 
+
+    }
+
+strong{
+  color: #00698f;
+}
+
+
+    p{
+      font-size: 13px;
+    }
+    .instruction-step {
+      margin-bottom: 10px;
+    }
+    .symbol-of-unity {
+      font-size: 24px;
+      color: #ffc107; 
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: #c6f7d0; 
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+.hi{
+  padding-top: 14px;
+}
+.design{
+  margin-top: 5px;
+
+}
+
+.detail{
+ 
+ width: 300px;
+ margin-top: 25px;
+ 
+ justify-content: center;
+ margin-left: 7%;
+
+ 
+
+}
+
+.details2{
+
+width: 300px;
+ 
+ justify-content: center;
+ margin-left: 7%;
+
+
+}
+#start-button{
+
+width: 120px;
+height: 50px;
+border: 1 px solid grey;
+color: white;
+font-size: bold;
+font-size: 5px;
+background: black;
+font-size: 16px;
+border-radius: 25px;
+margin-left: 110px;
+box-shadow:  0 0 10px grey;
+}
+
+#start-button:hover {
+  background-color: white;
+  color: black;
+  font-size: bold;
+}
+@media only screen and (min-width: 768px) {
+ .instruction-box {
+    width: 38%;
+  }
+ .detail {
+    width: 400px;
+    margin-left: 20%;
+  }
+ .start-button {
+    margin-left: 500px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .instruction-box {
+    width: 38%;
+  }
+  .detail {
+    width: 400px;
+    margin-left: 22%;
+  }
+  .details2 {
+    width: 400px;
+    margin-left: 22%;
+  }
+  #start-button {
+    margin-left: 250px;
+    
+  }
+}
+
+
+
+address { 
+  display: block;
+  font-style: italic;
+} 
+  </style>
+
+</head>
+<body>
+  <div>
+  <div class="instruction-box">
+    <h1 class="inss" style="background-color: #4bbb8b; color: #fff; padding: 5px;">Instructions:</h1>
+    <p>Read the instructions carefully before playing the game.</p>
+    
+    <div class="instruction-step">
+      <h2>Step 1: Choose a Number</h2>
+      <p>Choose any number from the table. For example,  <span class="highlight"> let's say you choose 28</span>.</p>
+    </div>
+
+   
+    
+    <div class="instruction-step">
+      <h2>Step 2: Reverse and Subtract</h2>
+      <p>Reverse the number you chose (<span class="highlight">28 becomes 82</span>). Then, subtract the smaller number from the larger one (<span class="highlight">82 - 28</span>). </p>
+    </div>
+    
+    <div class="instruction-step">
+      <h2>Step 3: Remember the Symbol</h2>
+      <p>Remember the  <span class="highlight"> symbol that appears on top of the answer </span>. In this case, it's the <span class="symbol-of-unity">☼</span> symbol of unity.</p>
+    </div>
+    
+    <p>That's it! If you're playing with many participants, it will be more interesting. Just remember to play peacefully and respectfully.</p>
+    <button id="start-button">Start Game</button>
+    
+      
+
+
+
+
+
+<div class="detail">
+    <address>
+  <h2 class="design"> <u style="text-decoration: red double underline ">**Our HeartFelt Thanks** </u></h2>
+
+    <p>We are privileged to have had the opportunity to learn from Sir <strong style="color:black;">vikram kumar Garu</strong>, whose guidance has been instrumental in our success.</p>
+  <p>Contact: <strong>8500386163 * 8331926163</strong></p>
+  <p>Email:<strong> <a href="mailto:vikram2036.iitm@gmail.com" style="color:#00698f">vikram2036.iitm@gmail.com</a> </strong></p>
+  </address>
+  </div>
+
+<div class="details2">
+
+<address>
+
+
+
+
+  <h2><q> <u style="text-decoration: red double underline ">Game Developed By </u></q></h2>
+
+<p>Developed by a students of <strong><a href="https://www.svhce.ac.in/">D.M.S.S.V.H College Of Engineering</a></strong>
+</p>
+
+<p>Department:<strong> Computer Science And Engineering</strong></p>
+
+
+<p>Contact: <strong>9121214653</strong></p>
+
+<p>Email:<strong>
+  <a href="mailto:principal.dmssvhce@gmail.com" style="color: #00698f;">principal.dmssvhce@gmail.com</a>
+  
+</strong></p>
+</address>
+</div>
+
+
+
+
+
+  </div>
+  
+
+  <script>
+    const startButton = document.getElementById("start-button");
+    startButton.addEventListener("click", function() {
+      window.location.href = "game.html";
+    });
+  </script>
+
+
+
+  
+</body>
+</html>

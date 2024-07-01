@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: 5px;
+background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid #ddd; 
+
+}
+body{
+  
+  background-color: white;
+  background-position: center;
+background-size: cover;
+overflow: scroll;
+
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 0px;
+  font-size: 12px;
+  
+}
+
+.main{
+width: 80%; 
+margin: 45px auto;
+padding: ;
+
+}
+.calculator{
+  border: 2px solid black;
+  width: 230px;
+  height: 260px;
+  left: 50%;
+  border-radius: 20px;
+  background-color: #fff;
+  
+}
+.box{
+
+    border: 2px solid black;
+  width: 230px;
+  height: 260px;
+  left: 50%;
+   background-color: #fff;
+  
+  float: right;
+  font-size: 10px;
+  justify-content: center;
+  border-radius: 15px;
+font-size: bold;
+
+  
+}
+
+
+.box {
+      background-color: #e3f2fd;
+    }
+    .calculator {
+      background-color: #fce4ec;
+
+}
+
+ul li strong {
+      color: #d32f2f;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+  }
+.hloo{
+
+      font-size: 15px;
+      color: black; 
+      font-weight: bold;
+
+
+}
+.inp{
+    border-radius: 15px;
+    margin: 2px;
+}
+.but{
+
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+display: inline-block;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background-color: black;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      
+      text-decoration: none;
+
+}
+
+.but:hover {
+      background-color: whitesmoke;
+      color: black;
+    }
+
+.main {
+    width: 80%;
+    margin: 45px auto;
+    padding: 20px;
+    background-color: #4bbb8b; /* warm, vibrant orange-yellow */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+
+.bro {
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background-color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      text-decoration: none;
+    }
+    .bro:hover {
+      background-color: #0056b3;
+     
+    }
+
+.bro1 {
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      background-color: black;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px;
+      text-decoration: none;
+      float: right;
+    }
+    .bro1:hover {
+      background-color: #0056b3;
+    }
+
+
+
+
+    @media only screen and (min-width: 1200px) {
+  .calculator{
+    margin-left: 30%;
+    width: 250px;
+  }
+  .box{
+    width: 250px;
+    margin-right: 30%;
+  }
+  
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+<table>
+    <h2 style="justify-content: center; margin-left:100px">Puzzle Table</h2>
+  <tr>
+    <th><p class="hloo">☼</p>
+    00</th>
+    <th> 
+<p>ಇ</p> 01</th>
+    <th> <p>ಉ</p>02</th>
+    <th> <p>
+ಎ</p>03</th>
+    <th><p>ಕ</p>04</th>
+    <th><p>ক</p>05</th>
+    <th><p>গ</p>06</th>
+    <th><p>য</p>07</th>
+    <th><p>ಅ
+</p>08</th>
+    <th><p class="hloo">☼</p>09</th>
+    <th><p>
+ಯ</p>10</th>
+    <th><p>
+ಮ</p>11</th>
+    <th><p>ರ</p>12</th>
+  </tr>
+  <tr>
+    <th><p>ಲ</p>13</th>
+    <th><p>ವ</p>14</th>
+    <th><p>ಶ </p>15</th>
+    <th><p>ಸ</p>16</th>
+    <th><p>
+अ</p>17</th>
+    <th><p class="hloo">☼</p>18</th>
+    <th><p>उ</p>19</th>
+    <th><p>ऐ</p>20</th>
+    <th><p> क </p>21</th>
+    <th><p> ग </p>22</th>
+    <th><p>य </p>23</th>
+    <th><p> र</p>24</th>
+    <th><p>  ल  </p>25</th>
+    
+    
+  </tr>
+  <tr>
+    <th><p>व</p>26</th>
+    <th><p class="hloo"> ☼</p>27</th>
+    <th><p> ट</p>28</th>
+    <th><p> ठ </p>29</th>
+    <th><p>  ड</p>30</th>
+    <th><p> ण </p>31</th>
+    <th><p> अ</p>32</th>
+    <th><p>इ</p>33</th>
+    <th><p> उ</p>34</th>
+    <th><p> य  </p>35</th>
+    <th><p class="hloo">☼</p>36</th>
+    <th><p>ठ </p>37</th>
+    <th><p>அ</p>38</th>
+</tr>
+<tr>
+    <th><p>இ</p>39</th>
+    <th><p> உ</p>40</th>
+    <th><p>ய</p>41</th>
+    <th><p> ம</p>42</th>
+    <th><p>ள </p>43</th>
+  
+    <th><p> ண</p>44</th>
+    <th><p class="hloo"> ☼</p>45</th>
+    <th><p> ட</p>46</th>
+    <th><p> ச </p>47</th>
+    <th><p> ப</p>48</th>
+    <th><p> ஸ்ரீ </p>49</th>
+    <th><p> అ</p>50</th>
+    <th><p>ఇ </p>51</th>
+</tr>
+<tr>
+    <th><p>ఉ </p>52</th>
+    <th><p>  ఋ</p>53</th>
+    <th><p class="hloo">  ☼</p>54</th>
+    <th><p> ళ  </p>55</th>
+    <th><p> ల</p>56</th>
+    <th><p>య</p>57</th>
+    <th><p> మ</p>58</th>
+    <th><p>ఝ</p>59</th>
+    <th><p> অ</p>60</th>
+    <th><p>ই </p>61</th>
+    <th><p> উ</p>62</th>
+    <th><p class="hloo">☼</p>63</th>
+    <th><p> ట </p>64</th>
+</tr>
+<tr>
+    <th><p>ఠ</p>65</th>
+    <th><p>త </p>66</th>
+    <th><p>ప </p>67</th>
+    <th><p> ద </p>68</th>
+    <th><p>  ఙ్ఞ </p>69</th>
+    <th><p> ణ</p>70</th>
+    <th><p>   న </p>71</th>
+    <th><p class="hloo">☼</p>72</th>
+    <th><p>  ଇ </p>73</th>
+    <th><p>  ଉ </p>74</th>
+    <th><p> അ</p>75</th>
+    <th><p>ഇ</p>76</th>
+    <th><p>ഉ</p>77</th>
+</tr>
+<tr>
+    <th><p>ക </p>78</th>
+    <th><p>ച</p>79</th>
+    <th><p> യ</p>80</th>
+    <th><p class="hloo">☼</p>81</th>
+    <th><p>ല</p>82</th>
+    <th><p>અ</p>83</th>
+    <th><p> ઇ </p>84</th>
+    <th><p> ઉ</p>85</th>
+    <th><p> એ</p>86</th>
+    <th><p>ક </p>87</th>
+    <th><p>ગ </p>88</th>
+    <th><p> ય</p>89</th>
+    <th><p class="hloo"> ☼ </p>90</th>
+</tr>
+<tr>
+    <th><p>લ </p>91</th>
+    <th><p>ਅ  </p>92</th>
+    <th><p> ਇ </p>93</th>
+    <th><p>  ਉ</p>94</th>
+    <th><p> ਏ </p>95</th>
+    
+    <th><p>  ਕ</p>96</th>
+    <th><p> ਗ </p>97</th>
+    <th><p>ਯ</p>98</th>
+    <th><p class="hloo">☼  </p>99</th>
+    <th><p>  ਮ  </p>100</th>
+    <th></th>
+    <th></th>
+    <th></th>
+</tr>
+</table>
+<button class="bro" onclick="window.location.href='instruction.html'">Back To Instructions</button>
+
+
+
+<button class="bro1" onclick="window.location.href='explanation.html'">Game Explanation</button>
+
+</div>
+
+
+
+
+<div class="box">
+
+
+  <h2 class="know" style="justify-content: center; margin-left: 60px;">DO YOU KNOW </h2>
+  <p style="justify-content: center; margin-left: 20px; font-size: 13px; font-weight: bold;">
+      
+   Above Table contains diffrent languages in india
+  </p>
+  <p style="color: black;font-weight: bold; font-family:">Blue and Green is a common color used to represent unity.Because they are associated with the Earth.</p>
+  <ul>
+    <li><strong>☼</strong> A symbol of unity</li> 
+    <li><strong>Kannada</strong>: ಕನ್ನಡ (ಇ, ಉ, ಎ, ಕ್, ಕ, ಗ, ಯ, ಅ)</li>
+    
+    <li><strong>Tamil</strong>: தமிழ் (அ, இ, உ, ய, ம, ள, ண, ட, ச, ப, ஸ்ரீ)</li>
+    <li><strong>Telugu</strong>: తెలుగు (అ, ఇ, ఉ, ఋ, ళ, ల, య, మ, ఝ)</li>
+    <li><strong>Oriya</strong>: ଓଡ଼ିଆ (ଇ, ଉ)</li>
+    <li><strong>Bengali</strong>: বাংলা (অ, উ)</li>
+    <li><strong>Malayalam</strong>: മലയാളം (അ, ഇ, ഉ)</li>
+
+    <li><strong>Gujarati</strong>: ગુજરાતી (અ, ઇ, ઉ, એ, ક, ગ, ય)</li>
+    <li><strong>Gurmukhi</strong>: ਗੁਰਮੁਖੀ (ਅ, ਇ, ਉ, ਏ, ਕ, ਗ, ਯ)</li>
+  
+  </ul>
+</div>
+
+
+
+
+<div class="calculator">
+  
+  
+
+    <h3 style="justify-content: center;margin-left: 20px;">Subtraction Calculator</h3><label><strong>num1:</strong></label>
+    <input type="number" id="num1" placeholder="Choose Number ex:01" class="inp">
+    
+    <label>
+        <strong>num2:</strong></label>
+    <input type="number" id="num2" placeholder="Reverse Number ex:10" class="inp">
+    <button onclick="calculateDifference()" class="but">Answer</button>
+    <p id="result"></p>
+<p>check the Answer contain symbol</p>
+  </div>
+
+
+
+
+
+<script>
+
+    function calculateDifference() {
+      // Get the two numbers from the input fields
+      const num1 = parseFloat(document.getElementById("num1").value);
+      const num2 = parseFloat(document.getElementById("num2").value);
+
+      // Calculate the absolute difference
+      const difference = Math.abs(num1 - num2);
+
+      // Display the result
+      document.getElementById("result").innerHTML = `The soluction is: ${difference}`;
+      
+    }
+  </script>
+
+
+
+
+</body>
+</html>
